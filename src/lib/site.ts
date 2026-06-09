@@ -48,15 +48,15 @@ export const navigation: Record<Locale, Array<{ key: RouteKey; label: string }>>
 
 export const profile = {
   name: "Alfred",
-  brand: "CXOEDX",
-  email: "hello@cxoedx.com",
-  domain: "CXOEDX.com"
+  brand: "CXODEX",
+  email: "hello@cxodex.com",
+  domain: "CXODEX.com"
 };
 
 export const content = {
   zh: {
     meta: {
-      title: "CXOEDX | CEO 陪跑与增长咨询",
+      title: "CXODEX | CEO 陪跑与增长咨询",
       description:
         "资深 CEO 陪跑顾问，30 年 CEO 经验，专注增长战略、精益生产、六西格玛、国际业务开发、销售体系建设与 CEO 深度陪跑。"
     },
@@ -156,7 +156,7 @@ export const content = {
   },
   en: {
     meta: {
-      title: "CXOEDX | CEO Advisory and Growth Consulting",
+      title: "CXODEX | CEO Advisory and Growth Consulting",
       description: "Senior CEO advisor with 30 years of executive experience across GE, Goodbaby Group, and US entrepreneurship."
     },
     common: {

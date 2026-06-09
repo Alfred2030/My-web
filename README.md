@@ -1,4 +1,4 @@
-# CXOEDX Consulting Website
+# CXODEX Consulting Website
 
 High-end personal consulting website for a senior CEO advisor.
 
@@ -41,7 +41,7 @@ npm run build
 1. Push this project to a GitHub repository.
 2. In Vercel, import the repository.
 3. Use the default Next.js build settings.
-4. Add `CXOEDX.com` and `www.CXOEDX.com` in Vercel Domains.
+4. Add `CXODEX.com` and `www.CXODEX.com` in Vercel Domains.
 5. Update DNS at the domain registrar according to Vercel's instructions.
 
 The project includes `vercel.json`, `sitemap.ts`, and `robots.ts` for production readiness.

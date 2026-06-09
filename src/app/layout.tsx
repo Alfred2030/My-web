@@ -16,7 +16,7 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cxoedx.com"),
+  metadataBase: new URL("https://cxodex.com"),
   title: {
     default: content.zh.meta.title,
     template: `%s | ${profile.brand}`
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: content.zh.meta.title,
     description: content.zh.meta.description,
-    url: "https://cxoedx.com",
+    url: "https://cxodex.com",
     siteName: profile.brand,
     locale: "zh_CN",
     type: "website"

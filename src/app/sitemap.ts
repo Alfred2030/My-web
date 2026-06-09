@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { localizedPath, navigation, type Locale, type RouteKey } from "@/lib/site";
 
-const baseUrl = "https://cxoedx.com";
+const baseUrl = "https://cxodex.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes: RouteKey[] = ["home", ...navigation.zh.map((item) => item.key)];
