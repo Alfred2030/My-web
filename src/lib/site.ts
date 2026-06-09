@@ -56,119 +56,189 @@ export const profile = {
 export const content = {
   zh: {
     meta: {
-      title: "CXODEX | CEO 陪跑与增长咨询",
+      title: "CXODEX | CEO 陪跑与经营改善咨询",
       description:
-        "资深 CEO 陪跑顾问，30 年 CEO 经验，专注增长战略、精益生产、六西格玛、国际业务开发、销售体系建设与 CEO 深度陪跑。"
+        "资深 CEO 陪跑顾问，基于 30 年 CEO 与总经理经验，专注经营改善、增长战略、精益生产、六西格玛、国际化与销售体系建设。"
     },
     common: {
       language: "EN",
-      consultation: "预约私密沟通",
-      companyStyle: "CEO Advisory · Growth Strategy · Operating Excellence"
+      consultation: "预约沟通",
+      companyStyle: "CEO Advisory · Operating Improvement · International Growth"
     },
     home: {
-      eyebrow: "Senior CEO Advisor",
-      title: "为企业一号位提供深度陪跑、增长战略与运营升级咨询",
+      eyebrow: "CEO 实战顾问",
+      title: "面向企业一号位的经营改善、增长战略与长期陪跑",
       subtitle:
-        "30 年 CEO 经验，横跨 GE 十年总经理、好孩子集团十年 CEO、美国十年创业实践，帮助创始人、董事长与 CEO 在关键阶段做出更高质量的经营决策。",
-      primaryCta: "预约咨询",
-      secondaryCta: "了解方法论",
+        "我曾在 GE 担任 10 年总经理，在好孩子集团担任 10 年 CEO，并在美国有 10 年创业经历。现在以外部顾问身份，陪伴 CEO 处理增长、运营、国际化、销售体系与组织执行中的关键问题。",
+      primaryCta: "预约一次沟通",
+      secondaryCta: "了解工作方法",
       proof: [
-        { value: "30年", label: "CEO 与总经理实战经验" },
-        { value: "10年", label: "GE 总经理经验" },
-        { value: "10年", label: "好孩子集团 CEO 经验" },
-        { value: "10年", label: "美国创业与国际业务经验" }
+        { value: "30年", label: "CEO 与总经理实战经历" },
+        { value: "10年", label: "GE 总经理经历" },
+        { value: "10年", label: "好孩子集团 CEO 经历" },
+        { value: "10年", label: "美国创业与国际业务经历" }
       ],
-      introTitle: "不是泛泛建议，而是站在 CEO 位置一起拆解增长、组织和执行。",
+      introTitle: "咨询的重点不是概念，而是经营判断、管理动作和持续复盘。",
       introBody:
-        "咨询重点放在企业真实问题：战略选择、增长突破、国际化、销售体系、精益运营、组织能力和 CEO 本人的决策节奏。每一次陪跑都服务于可落地的经营结果。",
+        "我更关注企业已经发生的问题：增长放缓、销售体系不稳定、运营效率不足、国际化推进困难、管理层共识不够清晰。每一次合作都从真实经营处境出发，先澄清问题，再确定优先级和推进节奏。",
       pillars: [
-        "增长战略与商业模式升级",
-        "精益生产与六西格玛运营体系",
-        "国际业务开发与跨文化管理",
-        "销售体系建设与高管团队协同"
+        "CEO 深度陪跑与关键决策讨论",
+        "经营改善、精益生产与六西格玛",
+        "国际业务开发与跨文化经营",
+        "销售增长与销售体系建设"
       ]
     },
     about: {
       title: "关于我",
-      subtitle: "我用 30 年 CEO 实战经验，帮助企业家看清局面、做对选择、带动组织。",
+      subtitle: "我将多年一线经营经验，转化为对 CEO 更实用、更克制的外部支持。",
       sections: [
-        { title: "GE 十年总经理经验", body: "在全球化管理体系中训练战略拆解、运营指标、人才梯队、精益管理和跨区域业务协同能力。" },
-        { title: "好孩子集团十年 CEO 经验", body: "在复杂制造、品牌、渠道和国际市场环境中推动企业成长，兼顾规模、效率、质量与组织建设。" },
-        { title: "美国十年创业经验", body: "亲历从零到一、市场验证、融资节奏、团队搭建和国际业务拓展，对创业者压力与 CEO 孤独有切身体会。" }
+        {
+          title: "GE 十年总经理经历",
+          body: "在跨国企业管理体系中长期参与战略分解、运营管理、质量改善、团队建设与跨区域协同。这段经历形成了我对流程、指标、组织节奏和管理纪律的基本理解。"
+        },
+        {
+          title: "好孩子集团十年 CEO 经历",
+          body: "在制造、品牌、渠道和国际市场交织的环境中担任 CEO，持续面对增长、效率、质量、组织能力和管理层协同等现实问题。"
+        },
+        {
+          title: "美国十年创业经历",
+          body: "在美国创业期间，直接经历市场验证、客户开发、团队搭建、资源约束与国际业务推进，对创业者和 CEO 的决策压力有切身体会。"
+        }
       ],
       statement:
-        "我的角色不是替 CEO 做决定，而是成为高质量的外部镜面和经营伙伴：看见盲点，压实逻辑，陪你把关键动作推进到底。"
+        "我不替 CEO 做决定，也不提供脱离现场的标准答案。我的工作是作为一个有经营经验的外部同行，帮助 CEO 看清问题、压实逻辑、明确取舍，并持续跟进关键动作。"
     },
     services: {
       title: "服务",
-      subtitle: "围绕 CEO 的关键经营议题，提供私密、连续、结果导向的咨询与陪跑。",
+      subtitle: "服务对象主要是创始人、董事长、CEO 及承担实际经营责任的核心管理者。",
       items: [
-        { title: "CEO 深度陪跑", body: "面向创始人、董事长和 CEO 的一对一长期陪跑，聚焦重大决策、组织挑战、个人领导力和阶段性经营突破。" },
-        { title: "企业增长战略", body: "重审市场定位、增长曲线、产品组合、客户结构与资源配置，形成清晰的战略选择和执行路线。" },
-        { title: "精益生产与六西格玛", body: "帮助制造型和运营密集型企业降低浪费、提升质量、缩短周期，并建立持续改善的管理机制。" },
-        { title: "国际业务开发", body: "支持企业进入海外市场，处理渠道、团队、合作伙伴、文化差异和区域经营节奏。" },
-        { title: "销售体系建设", body: "从目标、组织、流程、激励、漏斗和关键客户管理入手，建立可复制的销售增长系统。" },
-        { title: "高管团队工作坊", body: "围绕战略共识、经营复盘、组织协同和年度重点议题，设计高密度闭门工作坊。" }
+        {
+          title: "CEO 深度陪跑",
+          body: "围绕重大经营判断、阶段性取舍、管理层协同和 CEO 个人决策节奏，进行一对一或小范围长期讨论与复盘。"
+        },
+        {
+          title: "经营改善与增长战略",
+          body: "梳理市场定位、客户结构、产品组合、资源投入和增长路径，帮助管理层把战略讨论转化为可执行的经营重点。"
+        },
+        {
+          title: "精益生产与六西格玛",
+          body: "面向制造型和运营密集型企业，识别流程浪费、质量波动、交付周期和现场管理问题，建立更稳定的改善机制。"
+        },
+        {
+          title: "国际业务开发",
+          body: "支持企业评估海外市场进入、渠道选择、合作伙伴、团队配置和跨文化管理，降低国际化推进中的判断成本。"
+        },
+        {
+          title: "销售增长与体系建设",
+          body: "从销售目标、客户分层、管道管理、关键客户、激励机制和例会节奏入手，提升销售增长的可管理性。"
+        },
+        {
+          title: "高管团队工作坊",
+          body: "为管理层设计闭门研讨，围绕经营复盘、战略共识、年度重点和跨部门协同，形成清晰的问题清单与行动安排。"
+        }
       ]
     },
     methodology: {
       title: "方法论",
-      subtitle: "用咨询公司的结构化方法，结合 CEO 级别的经营直觉与落地经验。",
+      subtitle: "方法保持简单：先看事实，再定优先级，最后进入执行复盘。",
       steps: [
-        { title: "诊断真实问题", body: "通过 CEO 访谈、经营数据、组织访谈和关键会议观察，识别问题背后的问题。" },
-        { title: "建立决策框架", body: "把复杂议题拆成战略、客户、财务、组织、运营和风险几个可讨论维度。" },
-        { title: "设计关键动作", body: "聚焦少数高杠杆动作，明确负责人、资源、指标、时间表和复盘机制。" },
-        { title: "陪伴执行复盘", body: "以月度或双周节奏追踪推进，及时校正方向，确保共识转化为组织行为。" }
+        {
+          title: "澄清经营问题",
+          body: "通过 CEO 访谈、管理层沟通、经营数据和现场信息，区分表层症状与真正影响业务的关键问题。"
+        },
+        {
+          title: "建立判断框架",
+          body: "把复杂议题拆成市场、客户、产品、运营、财务、组织和风险几个维度，让讨论回到事实和取舍。"
+        },
+        {
+          title: "确定少数重点",
+          body: "避免同时推进过多项目，优先选择对经营质量影响较大的少数动作，明确负责人、节奏和衡量方式。"
+        },
+        {
+          title: "持续复盘调整",
+          body: "以固定节奏跟进推进情况，讨论偏差和阻力，在实际执行中校正判断，而不是停留在方案层面。"
+        }
       ],
       principles: [
-        "事实优先：用数据和现场观察校准判断",
-        "少即是多：抓住影响经营结果的少数关键变量",
-        "CEO 视角：所有建议都回到一号位的取舍和责任",
-        "结果闭环：咨询不止于方案，而要进入行动复盘"
+        "事实优先：少用口号，多看数据、现场和客户反馈",
+        "克制表达：不承诺无法验证的结果",
+        "CEO 视角：所有建议都回到一号位的责任和取舍",
+        "持续复盘：把咨询变成可跟进的管理动作"
       ]
     },
     cases: {
-      title: "案例",
-      subtitle: "以下为典型场景示例，可按行业和企业阶段进行保密化定制。",
+      title: "匿名案例场景",
+      subtitle: "以下为匿名化场景描述，用于说明典型咨询议题，不代表具体客户名单或可承诺结果。",
       items: [
-        { title: "制造企业精益运营升级", context: "一家增长放缓的制造企业面临交付周期长、质量波动和管理层协同不足。", result: "通过价值流诊断、关键指标重建和管理节奏优化，形成 90 天改善路线。" },
-        { title: "消费品牌国际市场进入", context: "企业希望进入北美市场，但对渠道、定价、团队和合作模式缺少清晰判断。", result: "建立市场进入框架，筛选优先区域与渠道，明确试点路径和风险清单。" },
-        { title: "CEO 年度战略陪跑", context: "创始人需要在增长、组织升级和二代管理团队建设之间做关键取舍。", result: "通过连续陪跑形成年度战略主题、季度战役和高管团队责任机制。" }
+        {
+          title: "制造企业的精益运营改善",
+          context: "一家制造企业在交付周期、质量稳定性和现场管理方面遇到压力，管理层也希望建立更清晰的运营指标和改善节奏。",
+          result: "工作重点放在价值流梳理、关键指标选择、现场管理节奏和持续改善机制，帮助团队形成更可讨论、可跟进的运营改善路径。"
+        },
+        {
+          title: "企业国际化前的进入判断",
+          context: "一家企业准备拓展海外业务，但对目标市场、渠道模式、合作伙伴选择和团队配置尚未形成一致判断。",
+          result: "工作重点放在市场进入逻辑、渠道与合作模式、组织准备度和主要风险识别，帮助 CEO 在投入前形成更清晰的决策框架。"
+        },
+        {
+          title: "销售增长与管理体系重建",
+          context: "一家企业的销售增长依赖少数个人能力，客户分层、管道管理、销售例会和关键客户机制不够稳定。",
+          result: "工作重点放在销售流程梳理、客户分层、指标体系和管理节奏，帮助销售团队从个人驱动逐步转向体系化管理。"
+        }
       ]
     },
     insights: {
       title: "洞察文章",
-      subtitle: "预留给 CEO 经营笔记、增长战略观察和管理方法论文章。",
+      subtitle: "预留给 CEO 经营笔记、精益与销售管理观察、国际化实践思考。",
       posts: [
-        { title: "CEO 最重要的工作：在不确定中建立组织确定性", date: "2026-06-09", excerpt: "企业越复杂，CEO 越需要把战略判断转化为清晰节奏、少数重点和可复盘的组织动作。" },
-        { title: "精益生产不是降本工具，而是管理系统", date: "2026-06-09", excerpt: "真正的精益不是项目制改善，而是把现场、数据、人才和经营目标连接起来。" },
-        { title: "国际业务开发前，先回答三个 CEO 问题", date: "2026-06-09", excerpt: "海外增长的本质不是复制国内打法，而是重新理解客户、渠道、组织和风险。" }
+        {
+          title: "CEO 陪跑首先要处理的是经营问题，而不是管理概念",
+          date: "2026-06-09",
+          excerpt: "好的外部顾问应当帮助 CEO 回到事实、取舍和节奏，而不是增加更多抽象词汇。"
+        },
+        {
+          title: "精益生产的价值，在于让管理问题可以被看见",
+          date: "2026-06-09",
+          excerpt: "精益不是单纯降本，而是让流程、质量、现场和管理节奏形成可持续的改善机制。"
+        },
+        {
+          title: "国际化不是复制国内经验，而是重新做经营判断",
+          date: "2026-06-09",
+          excerpt: "海外业务需要重新理解客户、渠道、合作伙伴、团队能力和风险边界。"
+        }
       ]
     },
     contact: {
       title: "联系方式",
-      subtitle: "适合正在经历增长瓶颈、国际化转型、组织升级或重大决策窗口的企业一号位。",
+      subtitle: "适合正在面对增长放缓、运营改善、国际化推进、销售体系建设或重大经营取舍的 CEO 与核心管理者。",
       emailLabel: "邮箱",
       formTitle: "预约一次私密沟通",
-      fields: { name: "姓名", company: "公司", email: "邮箱", message: "你正在思考的关键议题" },
+      fields: {
+        name: "姓名",
+        company: "公司",
+        email: "邮箱",
+        message: "你希望讨论的经营议题"
+      },
       submit: "发送咨询邮件"
     }
   },
   en: {
     meta: {
-      title: "CXODEX | CEO Advisory and Growth Consulting",
-      description: "Senior CEO advisor with 30 years of executive experience across GE, Goodbaby Group, and US entrepreneurship."
+      title: "CXODEX | CEO Advisory and Operating Improvement",
+      description:
+        "Senior CEO advisor with 30 years of executive experience across GE, Goodbaby Group, and US entrepreneurship."
     },
     common: {
       language: "中文",
-      consultation: "Request a private conversation",
-      companyStyle: "CEO Advisory · Growth Strategy · Operating Excellence"
+      consultation: "Request a conversation",
+      companyStyle: "CEO Advisory · Operating Improvement · International Growth"
     },
     home: {
-      eyebrow: "Senior CEO Advisor",
-      title: "CEO advisory for growth, operating excellence, and strategic clarity",
-      subtitle: "Thirty years of CEO and general management experience across GE, Goodbaby Group, and US entrepreneurship, supporting founders and CEOs through consequential decisions.",
-      primaryCta: "Book a consultation",
+      eyebrow: "CEO Operating Advisor",
+      title: "CEO advisory for operating improvement, growth decisions, and international expansion",
+      subtitle:
+        "Thirty years of CEO and general management experience across GE, Goodbaby Group, and US entrepreneurship, applied to practical CEO decisions.",
+      primaryCta: "Request a conversation",
       secondaryCta: "Explore the method",
       proof: [
         { value: "30 yrs", label: "CEO and general management experience" },
@@ -177,66 +247,147 @@ export const content = {
         { value: "10 yrs", label: "US entrepreneurship and global business" }
       ],
       introTitle: "A practical partner for the CEO agenda.",
-      introBody: "The work focuses on real executive questions: growth, global expansion, sales systems, lean operations, organizational capability, and the CEO's own decision cadence.",
-      pillars: ["Growth strategy and business model renewal", "Lean manufacturing and Six Sigma operating systems", "International business development", "Sales systems and executive team alignment"]
+      introBody:
+        "The work focuses on real operating questions: growth, global expansion, sales systems, lean operations, organizational capability, and the CEO's own decision cadence.",
+      pillars: [
+        "CEO advisory and decision support",
+        "Operating improvement, lean, and Six Sigma",
+        "International business development",
+        "Sales growth and sales-system building"
+      ]
     },
     about: {
       title: "About",
       subtitle: "Thirty years of CEO experience applied to high-stakes decisions and organizational execution.",
       sections: [
-        { title: "Ten years as General Manager at GE", body: "Trained in strategy deployment, operating metrics, leadership pipelines, lean management, and cross-regional execution." },
-        { title: "Ten years as CEO of Goodbaby Group", body: "Led growth across manufacturing, brand, channel, and global market complexity while balancing scale, quality, and organization." },
-        { title: "Ten years of US entrepreneurship", body: "Built through market validation, fundraising, team formation, and international expansion." }
+        {
+          title: "Ten years as General Manager at GE",
+          body: "Experience in strategy deployment, operating metrics, quality improvement, leadership pipelines, lean management, and cross-regional execution."
+        },
+        {
+          title: "Ten years as CEO of Goodbaby Group",
+          body: "Led through manufacturing, brand, channel, and international-market complexity while balancing growth, quality, efficiency, and organization."
+        },
+        {
+          title: "Ten years of US entrepreneurship",
+          body: "Built through market validation, customer development, resource constraints, team formation, and international business development."
+        }
       ],
-      statement: "My role is not to make decisions for the CEO. It is to become a rigorous external mirror and operating partner."
+      statement:
+        "My role is not to make decisions for the CEO. It is to provide an experienced external perspective, clarify tradeoffs, and follow through on critical operating actions."
     },
     services: {
       title: "Services",
       subtitle: "Confidential, continuous, outcome-oriented advisory for the CEO agenda.",
       items: [
-        { title: "CEO advisory", body: "One-on-one advisory for founders, chairpersons, and CEOs focused on key decisions, leadership, and execution." },
-        { title: "Growth strategy", body: "Reassess market position, growth curves, product portfolio, customer mix, and resource allocation." },
-        { title: "Lean and Six Sigma", body: "Reduce waste, improve quality, shorten cycles, and build a system for continuous improvement." },
-        { title: "International business development", body: "Support market entry, channels, teams, partners, culture, and regional operating cadence." },
-        { title: "Sales system building", body: "Build a repeatable sales engine across goals, organization, process, incentives, funnel, and key accounts." },
-        { title: "Executive workshops", body: "High-density private workshops for strategic alignment, operating reviews, and leadership collaboration." }
+        {
+          title: "CEO advisory",
+          body: "One-on-one advisory for founders, chairpersons, and CEOs focused on key operating decisions, leadership cadence, and execution."
+        },
+        {
+          title: "Operating improvement and growth strategy",
+          body: "Reassess market position, customer structure, product portfolio, resource allocation, and growth priorities."
+        },
+        {
+          title: "Lean and Six Sigma",
+          body: "Identify process waste, quality variance, delivery-cycle issues, and management-rhythm gaps in operations-heavy companies."
+        },
+        {
+          title: "International business development",
+          body: "Support market entry, channel selection, partners, team design, cultural differences, and regional operating cadence."
+        },
+        {
+          title: "Sales growth and systems",
+          body: "Build a more manageable sales system across goals, customer segmentation, pipeline, key accounts, incentives, and sales meetings."
+        },
+        {
+          title: "Executive workshops",
+          body: "Private workshops for operating reviews, strategic alignment, annual priorities, and cross-functional collaboration."
+        }
       ]
     },
     methodology: {
       title: "Methodology",
-      subtitle: "Structured consulting discipline, grounded in CEO-level operating experience.",
+      subtitle: "A simple method: facts first, fewer priorities, then execution review.",
       steps: [
-        { title: "Diagnose the real issue", body: "Use CEO interviews, operating data, team conversations, and meeting observation to find the issue behind the issue." },
-        { title: "Build the decision frame", body: "Break complex questions into strategy, customer, finance, organization, operations, and risk." },
-        { title: "Define the critical moves", body: "Focus on high-leverage actions with owners, resources, metrics, timing, and review cadence." },
-        { title: "Review execution", body: "Track progress monthly or biweekly, correct course, and turn alignment into organizational behavior." }
+        {
+          title: "Clarify the operating issue",
+          body: "Use CEO interviews, operating data, team conversations, and field observation to separate symptoms from root issues."
+        },
+        {
+          title: "Build the decision frame",
+          body: "Break complex questions into market, customer, product, operations, finance, organization, and risk."
+        },
+        {
+          title: "Set a few priorities",
+          body: "Focus on a small number of high-leverage actions with owners, cadence, and ways to review progress."
+        },
+        {
+          title: "Review and adjust",
+          body: "Track execution regularly and correct judgment through real operating feedback."
+        }
       ],
-      principles: ["Facts first", "Fewer, sharper priorities", "CEO-level tradeoffs", "Closed-loop execution"]
+      principles: [
+        "Facts before slogans",
+        "Restrained claims",
+        "CEO-level tradeoffs",
+        "Closed-loop execution"
+      ]
     },
     cases: {
-      title: "Cases",
-      subtitle: "Representative scenarios, anonymized and adaptable by industry and company stage.",
+      title: "Anonymized Scenarios",
+      subtitle: "Representative scenarios only. No client names or unverifiable results are claimed.",
       items: [
-        { title: "Lean operating upgrade for a manufacturer", context: "A manufacturer faced slower growth, long delivery cycles, quality variance, and weak management alignment.", result: "Created a 90-day improvement path through value-stream diagnosis, metrics, and operating cadence." },
-        { title: "North American market entry for a consumer brand", context: "The company needed clarity on channels, pricing, team design, and partnership model.", result: "Built a market-entry frame, prioritized regions and channels, and defined pilot risks." },
-        { title: "Annual CEO strategy advisory", context: "A founder needed to balance growth, organizational upgrade, and next-generation leadership.", result: "Created annual strategic themes, quarterly campaigns, and executive ownership mechanisms." }
+        {
+          title: "Lean improvement in a manufacturing business",
+          context: "A manufacturing company faced pressure around delivery cycle, quality stability, and shop-floor management rhythm.",
+          result: "The work focused on value-stream review, operating metrics, management cadence, and a practical improvement path."
+        },
+        {
+          title: "International market-entry judgment",
+          context: "A company was preparing for overseas expansion without clear alignment on target market, channels, partners, and team design.",
+          result: "The work focused on market-entry logic, channel model, organization readiness, and key risk boundaries."
+        },
+        {
+          title: "Sales growth and management system",
+          context: "A business relied heavily on individual sales capability and needed clearer pipeline, account, meeting, and incentive mechanisms.",
+          result: "The work focused on sales process, customer segmentation, metrics, and management rhythm."
+        }
       ]
     },
     insights: {
       title: "Insights",
-      subtitle: "Reserved for CEO notes, growth strategy observations, and management essays.",
+      subtitle: "CEO notes on operating improvement, sales systems, lean management, and international growth.",
       posts: [
-        { title: "The CEO's job: creating certainty inside uncertainty", date: "2026-06-09", excerpt: "As complexity rises, the CEO must turn judgment into cadence, priorities, and reviewable action." },
-        { title: "Lean is not a cost tool. It is a management system.", date: "2026-06-09", excerpt: "True lean connects the floor, data, talent, and operating goals." },
-        { title: "Three CEO questions before global expansion", date: "2026-06-09", excerpt: "International growth requires fresh thinking about customers, channels, organization, and risk." }
+        {
+          title: "CEO advisory should start with operating reality",
+          date: "2026-06-09",
+          excerpt: "Good advisory work helps the CEO return to facts, tradeoffs, and cadence."
+        },
+        {
+          title: "Lean makes management problems visible",
+          date: "2026-06-09",
+          excerpt: "Lean is not only about cost. It connects process, quality, the field, and operating rhythm."
+        },
+        {
+          title: "International expansion requires fresh operating judgment",
+          date: "2026-06-09",
+          excerpt: "Overseas growth means rethinking customers, channels, partners, team capability, and risk."
+        }
       ]
     },
     contact: {
       title: "Contact",
-      subtitle: "For CEOs navigating growth bottlenecks, international expansion, organizational upgrades, or major decisions.",
+      subtitle:
+        "For CEOs and core executives facing growth slowdown, operating improvement, international expansion, sales-system building, or major tradeoffs.",
       emailLabel: "Email",
       formTitle: "Request a private conversation",
-      fields: { name: "Name", company: "Company", email: "Email", message: "Key issue you are considering" },
+      fields: {
+        name: "Name",
+        company: "Company",
+        email: "Email",
+        message: "Operating issue you want to discuss"
+      },
       submit: "Send inquiry"
     }
   }

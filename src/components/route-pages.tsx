@@ -85,6 +85,8 @@ export function MethodologyPageContent({ locale }: { locale: Locale }) {
 
 export function CasesPageContent({ locale }: { locale: Locale }) {
   const copy = content[locale];
+  const contextLabel = locale === "zh" ? "背景" : "Context";
+  const workLabel = locale === "zh" ? "工作重点" : "Focus";
 
   return (
     <PageShell locale={locale} current="cases">
@@ -96,11 +98,11 @@ export function CasesPageContent({ locale }: { locale: Locale }) {
               <span className="text-xs font-semibold tracking-[0.18em] text-blue-900">CASE {String(index + 1).padStart(2, "0")}</span>
               <div>
                 <h2 className="text-2xl font-semibold text-neutral-950">{item.title}</h2>
-                <p className="mt-4 text-sm font-semibold uppercase tracking-[0.16em] text-neutral-400">Context</p>
+                <p className="mt-4 text-sm font-semibold uppercase tracking-[0.16em] text-neutral-400">{contextLabel}</p>
                 <p className="mt-3 text-base leading-8 text-neutral-600">{item.context}</p>
               </div>
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-neutral-400">Result</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-neutral-400">{workLabel}</p>
                 <p className="mt-3 text-base leading-8 text-neutral-600">{item.result}</p>
               </div>
             </article>
@@ -155,11 +157,25 @@ export function ContactPageContent({ locale }: { locale: Locale }) {
           </div>
           <form className="grid gap-5 border border-neutral-200 bg-neutral-50 p-6 sm:p-8" action={`mailto:${profile.email}`} method="post" encType="text/plain">
             <h2 className="text-2xl font-semibold text-neutral-950">{copy.contact.formTitle}</h2>
-            <label className="grid gap-2"><span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.name}</span><input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="name" required /></label>
-            <label className="grid gap-2"><span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.company}</span><input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="company" /></label>
-            <label className="grid gap-2"><span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.email}</span><input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="email" type="email" required /></label>
-            <label className="grid gap-2"><span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.message}</span><textarea className="min-h-36 resize-y border border-neutral-300 bg-white px-4 py-3 text-base outline-none focus:border-blue-900" name="message" /></label>
-            <button className="button-dark justify-self-start" type="submit">{copy.contact.submit}</button>
+            <label className="grid gap-2">
+              <span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.name}</span>
+              <input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="name" required />
+            </label>
+            <label className="grid gap-2">
+              <span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.company}</span>
+              <input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="company" />
+            </label>
+            <label className="grid gap-2">
+              <span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.email}</span>
+              <input className="h-12 border border-neutral-300 bg-white px-4 text-base outline-none focus:border-blue-900" name="email" type="email" required />
+            </label>
+            <label className="grid gap-2">
+              <span className="text-sm font-semibold text-neutral-700">{copy.contact.fields.message}</span>
+              <textarea className="min-h-36 resize-y border border-neutral-300 bg-white px-4 py-3 text-base outline-none focus:border-blue-900" name="message" />
+            </label>
+            <button className="button-dark justify-self-start" type="submit">
+              {copy.contact.submit}
+            </button>
           </form>
         </div>
       </section>
